@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Personal Profile</title>
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+
+    <header>
+        <h1>Welcome to My Personal Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Profile Overview</h2>
+            <img src="assets/profile.jpg" alt="Profile picture of student" width="200">
+            <p>Hello! I am an Information Technology student at the University of Bahrain, passionate about Web Development and Software Engineering.</p>
+        </section>
+
+        <section>
+            <h2>My Top Priorities This Semester</h2>
+            <ol>
+                <li>Master HTML5 and semantic markup</li>
+                <li>Build solid Git and GitHub workflows</li>
+                <li>Achieve top grades in ITCS 333</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 UOB Student. Connect with me on <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </footer>
+
 </body>
 </html>
